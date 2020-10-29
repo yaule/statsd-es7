@@ -28,4 +28,4 @@ EXPOSE 8125/udp
 EXPOSE 8126
 
 # Start statsd
-ENTRYPOINT [ "node", "stats.js", "config.js" ]
+CMD [ "node", "stats.js", "config.js" ]
